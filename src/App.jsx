@@ -16,7 +16,7 @@ export default function CurrencyConverter() {
         setLoading(true);
         setError("");
 
-        const res = await fetch("https://api.frankfurter.app/latest?base=USD");
+        const res = await fetch("https://api.frankfurter.app/latest?from=USD");
 
         if (!res.ok) {
           throw new Error("Failed to fetch exchange rates");
