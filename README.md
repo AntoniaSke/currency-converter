@@ -1,5 +1,7 @@
 # Currency Converter
 
+Live Demo: [View Project](https://currency-converter-black-beta.vercel.app/)
+
 A React currency converter app that fetches real-time exchange rates from the Frankfurter API.
 
 ## Features
